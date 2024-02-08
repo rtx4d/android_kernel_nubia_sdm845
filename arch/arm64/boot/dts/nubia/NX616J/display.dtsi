@@ -52,7 +52,6 @@
 				qcom,supply-enable-load = <100000>;
 				qcom,supply-disable-load = <100>;
 			};
-		/*	
 			qcom,panel-supply-entry@3 {
 				reg = <3>;
 				qcom,supply-name = "sub_lcd";
@@ -60,23 +59,9 @@
 				qcom,supply-max-voltage = <3000000>;
 				qcom,supply-enable-load = <100000>;
 				qcom,supply-disable-load = <100>;
-			};*/
-		};
-
-
-
-	nubia_dsi_panel_pwr_supply_boe_sub: nubia_dsi_panel_pwr_supply_boe_sub {
-			#address-cells = <1>;
-			#size-cells = <0>;
-			qcom,panel-supply-entry@0 {
-				reg = <0>;
-				qcom,supply-name = "sub_lcd";
-				qcom,supply-min-voltage = <3000000>;
-				qcom,supply-max-voltage = <3000000>;
-				qcom,supply-enable-load = <100000>;
-				qcom,supply-disable-load = <100>;
 			};
 		};
+
 //End :add the power of lcds for NX616J -------0330
 //start : add for NX616J lcd
 
@@ -113,7 +98,7 @@
 
 &dsi_nubia_boe_himax_cmd{
 				qcom,panel-supply-entries = <&nubia_dsi_panel_pwr_supply_boe>;
-				qcom,sub-panel-supply-entries = <&nubia_dsi_panel_pwr_supply_boe_sub>;
+				qcom,sub-panel-supply-entries = <&nubia_dsi_panel_pwr_supply_boe>;
 
 				qcom,mdss-dsi-bl-pmic-control-type = "bl_ctrl_wled";
 				qcom,mdss-brightness-max-level = <4095>;

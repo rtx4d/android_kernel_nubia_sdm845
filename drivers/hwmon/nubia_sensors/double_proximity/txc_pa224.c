@@ -112,7 +112,7 @@ do { \
    Description    : add for NX616J proximity second input name */
 //#define INPUT_NAME_PS       "proximity2"
 #define MISC_DEV_NAME       "ps_dev"
-#define PS_CAL_FILE_PATH    "/persist/sensors/xtalk_cal2"
+#define PS_CAL_FILE_PATH    "/mnt/vendor/persist/sensors/xtalk_cal2"
 
 #define saturation_delay    100
 #define sequence_dealy      15

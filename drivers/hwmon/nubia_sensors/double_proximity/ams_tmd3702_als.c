@@ -52,9 +52,9 @@ int tmd3702_read_als(struct tmd3702_chip *chip);
  static int tmd3702_update_als(struct tmd3702_chip *chip);
 #define DEV_ALS_NAME         "light"
 #define DEV_ALS_NAME2         "light2"
-#define ALS_CAL_PATH		 "/persist/sensors/als_cal_data"
-#define ALS_CAL_PATH2		 "/persist/sensors/als_cal_data2"
-#define COLOR_CONFIG_PATH2	 "/persist/sensors/rgb_color_cfg2"
+#define ALS_CAL_PATH		 "/mnt/vendor/persist/sensors/als_cal_data"
+#define ALS_CAL_PATH2		 "/mnt/vendor/persist/sensors/als_cal_data2"
+#define COLOR_CONFIG_PATH2	 "/mnt/vendor/persist/sensors/rgb_color_cfg2"
 #define PARSE_DTSI_NUMBER    7
 #define MODULE_MANUFACTURE_NUMBER 3
 #define VALID_FLAG							0x5555

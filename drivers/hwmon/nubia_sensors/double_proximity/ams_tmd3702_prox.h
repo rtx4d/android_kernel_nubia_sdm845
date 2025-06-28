@@ -38,7 +38,7 @@ extern int tmd3702_prox_attrs_size;
 #define PS_THRESH_DATA_MIN              30
 #define PS_THRESH_DATA_MAX              200
 #define PS_DATA_MAX                     255
-#define PS_CAL_FILE_PATH                "/persist/sensors/xtalk_cal"
+#define PS_CAL_FILE_PATH                "/mnt/vendor/persist/sensors/xtalk_cal"
 #define PS_AVG_TIME                     6
 #define PS_THRES_FAR                    50
 #define PS_THRES_NEAR                   80

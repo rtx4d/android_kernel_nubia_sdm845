@@ -127,9 +127,9 @@ do { \
 
 #define INPUT_DEVICE_NAME       "optical_key_right"
 #define MISC_DEV_NAME       "optical_key_dev"
-#define THRESHOLDS_FILE_PATH    "/persist/sensors/optical_key/right/threshold"
-#define CURVE_DATA_FILE		"/persist/sensors/optical_key/right/curve_data"
-#define USER_DATA_FILE	"/persist/sensors/optical_key/right/user_data" 
+#define THRESHOLDS_FILE_PATH    "/mnt/vendor/persist/sensors/optical_key/right/threshold"
+#define CURVE_DATA_FILE		"/mnt/vendor/persist/sensors/optical_key/right/curve_data"
+#define USER_DATA_FILE	"/mnt/vendor/persist/sensors/optical_key/right/user_data" 
 
 #define saturation_delay    100
 #define sequence_dealy      15

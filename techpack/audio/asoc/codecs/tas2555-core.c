@@ -48,7 +48,7 @@
 #define PPC_WITH_CHECKSUM			0x010c8400
 #define PPC_DRIVER_VERSION			0x00000200
 
-#define TAS2555_CAL_NAME    "/persist/tas2555_cal.bin"
+#define TAS2555_CAL_NAME    "/mnt/vendor/persist/tas2555_cal.bin"
 
 //set default PLL CLKIN to GPI2 (MCLK) = 0x00
 #define TAS2555_DEFAULT_PLL_CLKIN 0x00

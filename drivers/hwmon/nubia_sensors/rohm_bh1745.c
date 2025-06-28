@@ -46,8 +46,8 @@
 
 #define PARSE_DTSI_NUMBER                   (29)
 #define JUDEG_COEFF                         (1000)
-#define COLOR_CONFIG_PATH	 "/persist/sensors/rgb_color_cfg"
-#define RGBC_CAL_PATH		 "/persist/sensors/rgbc_cfg"
+#define COLOR_CONFIG_PATH	 "/mnt/vendor/persist/sensors/rgb_color_cfg"
+#define RGBC_CAL_PATH		 "/mnt/vendor/persist/sensors/rgbc_cfg"
 #define SCALE_FACTOR(x, y) (x)/(y)
 
 #define MODULE_MANUFACTURE_NUMBER		3
